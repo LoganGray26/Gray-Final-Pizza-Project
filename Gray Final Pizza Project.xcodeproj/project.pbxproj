@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5229877224609EC400854E51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229877124609EC400854E51 /* AppDelegate.swift */; };
+		5229877424609EC400854E51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229877324609EC400854E51 /* SceneDelegate.swift */; };
+		5229877624609EC400854E51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229877524609EC400854E51 /* ViewController.swift */; };
+		5229877924609EC400854E51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5229877724609EC400854E51 /* Main.storyboard */; };
+		5229877B24609EC800854E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5229877A24609EC800854E51 /* Assets.xcassets */; };
+		5229877E24609EC800854E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5229877C24609EC800854E51 /* LaunchScreen.storyboard */; };
+		5229878924609EC900854E51 /* Gray_Final_Pizza_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229878824609EC900854E51 /* Gray_Final_Pizza_ProjectTests.swift */; };
+		5229879424609EC900854E51 /* Gray_Final_Pizza_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229879324609EC900854E51 /* Gray_Final_Pizza_ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5229878524609EC900854E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5229876624609EC300854E51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5229876D24609EC300854E51;
+			remoteInfo = "Gray Final Pizza Project";
+		};
+		5229879024609EC900854E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5229876624609EC300854E51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5229876D24609EC300854E51;
+			remoteInfo = "Gray Final Pizza Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5229876E24609EC400854E51 /* Gray Final Pizza Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gray Final Pizza Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5229877124609EC400854E51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5229877324609EC400854E51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5229877524609EC400854E51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5229877824609EC400854E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5229877A24609EC800854E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5229877D24609EC800854E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5229877F24609EC800854E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5229878424609EC900854E51 /* Gray Final Pizza ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gray Final Pizza ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5229878824609EC900854E51 /* Gray_Final_Pizza_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gray_Final_Pizza_ProjectTests.swift; sourceTree = "<group>"; };
+		5229878A24609EC900854E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5229878F24609EC900854E51 /* Gray Final Pizza ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gray Final Pizza ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5229879324609EC900854E51 /* Gray_Final_Pizza_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gray_Final_Pizza_ProjectUITests.swift; sourceTree = "<group>"; };
+		5229879524609EC900854E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5229876B24609EC300854E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5229878124609EC900854E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5229878C24609EC900854E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5229876524609EC300854E51 = {
+			isa = PBXGroup;
+			children = (
+				5229877024609EC400854E51 /* Gray Final Pizza Project */,
+				5229878724609EC900854E51 /* Gray Final Pizza ProjectTests */,
+				5229879224609EC900854E51 /* Gray Final Pizza ProjectUITests */,
+				5229876F24609EC400854E51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5229876F24609EC400854E51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5229876E24609EC400854E51 /* Gray Final Pizza Project.app */,
+				5229878424609EC900854E51 /* Gray Final Pizza ProjectTests.xctest */,
+				5229878F24609EC900854E51 /* Gray Final Pizza ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5229877024609EC400854E51 /* Gray Final Pizza Project */ = {
+			isa = PBXGroup;
+			children = (
+				5229877124609EC400854E51 /* AppDelegate.swift */,
+				5229877324609EC400854E51 /* SceneDelegate.swift */,
+				5229877524609EC400854E51 /* ViewController.swift */,
+				5229877724609EC400854E51 /* Main.storyboard */,
+				5229877A24609EC800854E51 /* Assets.xcassets */,
+				5229877C24609EC800854E51 /* LaunchScreen.storyboard */,
+				5229877F24609EC800854E51 /* Info.plist */,
+			);
+			path = "Gray Final Pizza Project";
+			sourceTree = "<group>";
+		};
+		5229878724609EC900854E51 /* Gray Final Pizza ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				5229878824609EC900854E51 /* Gray_Final_Pizza_ProjectTests.swift */,
+				5229878A24609EC900854E51 /* Info.plist */,
+			);
+			path = "Gray Final Pizza ProjectTests";
+			sourceTree = "<group>";
+		};
+		5229879224609EC900854E51 /* Gray Final Pizza ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5229879324609EC900854E51 /* Gray_Final_Pizza_ProjectUITests.swift */,
+				5229879524609EC900854E51 /* Info.plist */,
+			);
+			path = "Gray Final Pizza ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5229876D24609EC300854E51 /* Gray Final Pizza Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5229879824609EC900854E51 /* Build configuration list for PBXNativeTarget "Gray Final Pizza Project" */;
+			buildPhases = (
+				5229876A24609EC300854E51 /* Sources */,
+				5229876B24609EC300854E51 /* Frameworks */,
+				5229876C24609EC300854E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gray Final Pizza Project";
+			productName = "Gray Final Pizza Project";
+			productReference = 5229876E24609EC400854E51 /* Gray Final Pizza Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5229878324609EC900854E51 /* Gray Final Pizza ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5229879B24609EC900854E51 /* Build configuration list for PBXNativeTarget "Gray Final Pizza ProjectTests" */;
+			buildPhases = (
+				5229878024609EC900854E51 /* Sources */,
+				5229878124609EC900854E51 /* Frameworks */,
+				5229878224609EC900854E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5229878624609EC900854E51 /* PBXTargetDependency */,
+			);
+			name = "Gray Final Pizza ProjectTests";
+			productName = "Gray Final Pizza ProjectTests";
+			productReference = 5229878424609EC900854E51 /* Gray Final Pizza ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5229878E24609EC900854E51 /* Gray Final Pizza ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5229879E24609EC900854E51 /* Build configuration list for PBXNativeTarget "Gray Final Pizza ProjectUITests" */;
+			buildPhases = (
+				5229878B24609EC900854E51 /* Sources */,
+				5229878C24609EC900854E51 /* Frameworks */,
+				5229878D24609EC900854E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5229879124609EC900854E51 /* PBXTargetDependency */,
+			);
+			name = "Gray Final Pizza ProjectUITests";
+			productName = "Gray Final Pizza ProjectUITests";
+			productReference = 5229878F24609EC900854E51 /* Gray Final Pizza ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5229876624609EC300854E51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "logan gray";
+				TargetAttributes = {
+					5229876D24609EC300854E51 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					5229878324609EC900854E51 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 5229876D24609EC300854E51;
+					};
+					5229878E24609EC900854E51 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 5229876D24609EC300854E51;
+					};
+				};
+			};
+			buildConfigurationList = 5229876924609EC300854E51 /* Build configuration list for PBXProject "Gray Final Pizza Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5229876524609EC300854E51;
+			productRefGroup = 5229876F24609EC400854E51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5229876D24609EC300854E51 /* Gray Final Pizza Project */,
+				5229878324609EC900854E51 /* Gray Final Pizza ProjectTests */,
+				5229878E24609EC900854E51 /* Gray Final Pizza ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5229876C24609EC300854E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5229877E24609EC800854E51 /* LaunchScreen.storyboard in Resources */,
+				5229877B24609EC800854E51 /* Assets.xcassets in Resources */,
+				5229877924609EC400854E51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5229878224609EC900854E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5229878D24609EC900854E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5229876A24609EC300854E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5229877624609EC400854E51 /* ViewController.swift in Sources */,
+				5229877224609EC400854E51 /* AppDelegate.swift in Sources */,
+				5229877424609EC400854E51 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5229878024609EC900854E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5229878924609EC900854E51 /* Gray_Final_Pizza_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5229878B24609EC900854E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5229879424609EC900854E51 /* Gray_Final_Pizza_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5229878624609EC900854E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5229876D24609EC300854E51 /* Gray Final Pizza Project */;
+			targetProxy = 5229878524609EC900854E51 /* PBXContainerItemProxy */;
+		};
+		5229879124609EC900854E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5229876D24609EC300854E51 /* Gray Final Pizza Project */;
+			targetProxy = 5229879024609EC900854E51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5229877724609EC400854E51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5229877824609EC400854E51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5229877C24609EC800854E51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5229877D24609EC800854E51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5229879624609EC900854E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5229879724609EC900854E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5229879924609EC900854E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gray Final Pizza Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Logan-Gray.Gray-Final-Pizza-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5229879A24609EC900854E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gray Final Pizza Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Logan-Gray.Gray-Final-Pizza-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5229879C24609EC900854E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gray Final Pizza ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Logan-Gray.Gray-Final-Pizza-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gray Final Pizza Project.app/Gray Final Pizza Project";
+			};
+			name = Debug;
+		};
+		5229879D24609EC900854E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gray Final Pizza ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Logan-Gray.Gray-Final-Pizza-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gray Final Pizza Project.app/Gray Final Pizza Project";
+			};
+			name = Release;
+		};
+		5229879F24609EC900854E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gray Final Pizza ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Logan-Gray.Gray-Final-Pizza-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gray Final Pizza Project";
+			};
+			name = Debug;
+		};
+		522987A024609EC900854E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gray Final Pizza ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Logan-Gray.Gray-Final-Pizza-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gray Final Pizza Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5229876924609EC300854E51 /* Build configuration list for PBXProject "Gray Final Pizza Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5229879624609EC900854E51 /* Debug */,
+				5229879724609EC900854E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5229879824609EC900854E51 /* Build configuration list for PBXNativeTarget "Gray Final Pizza Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5229879924609EC900854E51 /* Debug */,
+				5229879A24609EC900854E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5229879B24609EC900854E51 /* Build configuration list for PBXNativeTarget "Gray Final Pizza ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5229879C24609EC900854E51 /* Debug */,
+				5229879D24609EC900854E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5229879E24609EC900854E51 /* Build configuration list for PBXNativeTarget "Gray Final Pizza ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5229879F24609EC900854E51 /* Debug */,
+				522987A024609EC900854E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5229876624609EC300854E51 /* Project object */;
+}
