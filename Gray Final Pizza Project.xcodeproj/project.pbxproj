@@ -15,6 +15,11 @@
 		5229877E24609EC800854E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5229877C24609EC800854E51 /* LaunchScreen.storyboard */; };
 		5229878924609EC900854E51 /* Gray_Final_Pizza_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229878824609EC900854E51 /* Gray_Final_Pizza_ProjectTests.swift */; };
 		5229879424609EC900854E51 /* Gray_Final_Pizza_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229879324609EC900854E51 /* Gray_Final_Pizza_ProjectUITests.swift */; };
+		522987AB2460B58200854E51 /* GPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522987AA2460B58200854E51 /* GPSViewController.swift */; };
+		522987B12460BA7200854E51 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522987B02460BA7200854E51 /* TabBarViewController.swift */; };
+		522987F32460DCE700854E51 /* Untitled document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 522987F22460DCE700854E51 /* Untitled document.pdf */; };
+		522987F62460E50800854E51 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522987F52460E50800854E51 /* WebKit.framework */; };
+		522987FA2460F6D700854E51 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522987F92460F6D600854E51 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,12 @@
 		5229878F24609EC900854E51 /* Gray Final Pizza ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gray Final Pizza ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5229879324609EC900854E51 /* Gray_Final_Pizza_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gray_Final_Pizza_ProjectUITests.swift; sourceTree = "<group>"; };
 		5229879524609EC900854E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522987A52460A36D00854E51 /* pizza1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza1.png; sourceTree = "<group>"; };
+		522987AA2460B58200854E51 /* GPSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GPSViewController.swift; path = "/Users/logangray/Desktop/programming 2/Gray Final Pizza Project/Gray Final Pizza Project/GPSViewController.swift"; sourceTree = "<absolute>"; };
+		522987B02460BA7200854E51 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = "/Users/logangray/Desktop/programming 2/Gray Final Pizza Project/Gray Final Pizza Project/TabBarViewController.swift"; sourceTree = "<absolute>"; };
+		522987F22460DCE700854E51 /* Untitled document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Untitled document.pdf"; sourceTree = "<group>"; };
+		522987F52460E50800854E51 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		522987F92460F6D600854E51 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = "/Users/logangray/Desktop/programming 2/Gray Final Pizza Project/Gray Final Pizza Project/ViewController2.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522987F62460E50800854E51 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +95,7 @@
 				5229878724609EC900854E51 /* Gray Final Pizza ProjectTests */,
 				5229879224609EC900854E51 /* Gray Final Pizza ProjectUITests */,
 				5229876F24609EC400854E51 /* Products */,
+				522987F42460E50600854E51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +116,11 @@
 				5229877324609EC400854E51 /* SceneDelegate.swift */,
 				5229877524609EC400854E51 /* ViewController.swift */,
 				5229877724609EC400854E51 /* Main.storyboard */,
+				522987B02460BA7200854E51 /* TabBarViewController.swift */,
+				522987F92460F6D600854E51 /* ViewController2.swift */,
+				522987AA2460B58200854E51 /* GPSViewController.swift */,
+				522987A52460A36D00854E51 /* pizza1.png */,
+				522987F22460DCE700854E51 /* Untitled document.pdf */,
 				5229877A24609EC800854E51 /* Assets.xcassets */,
 				5229877C24609EC800854E51 /* LaunchScreen.storyboard */,
 				5229877F24609EC800854E51 /* Info.plist */,
@@ -126,6 +144,14 @@
 				5229879524609EC900854E51 /* Info.plist */,
 			);
 			path = "Gray Final Pizza ProjectUITests";
+			sourceTree = "<group>";
+		};
+		522987F42460E50600854E51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				522987F52460E50800854E51 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5229877E24609EC800854E51 /* LaunchScreen.storyboard in Resources */,
+				522987F32460DCE700854E51 /* Untitled document.pdf in Resources */,
 				5229877B24609EC800854E51 /* Assets.xcassets in Resources */,
 				5229877924609EC400854E51 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +289,9 @@
 				5229877624609EC400854E51 /* ViewController.swift in Sources */,
 				5229877224609EC400854E51 /* AppDelegate.swift in Sources */,
 				5229877424609EC400854E51 /* SceneDelegate.swift in Sources */,
+				522987B12460BA7200854E51 /* TabBarViewController.swift in Sources */,
+				522987AB2460B58200854E51 /* GPSViewController.swift in Sources */,
+				522987FA2460F6D700854E51 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 365X9WR9C8;
 				INFOPLIST_FILE = "Gray Final Pizza Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 365X9WR9C8;
 				INFOPLIST_FILE = "Gray Final Pizza Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

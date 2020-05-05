@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/logangray/Desktop/programming 2/Gray Final Pizza Project/Gray Final Pizza Project/ViewController3.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/logangray/Desktop/programming 2/Gray Final Pizza Project/Gray Final Pizza Project/ViewController2.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/logangray/Desktop/programming 2/Gray Final Pizza Project/Gray Final Pizza Project/TabBarViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/logangray/Desktop/programming 2/Gray Final Pizza Project/Gray Final Pizza Project/TBViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/logangray/Desktop/programming 2/Gray Final Pizza Project/Gray Final Pizza Project/GPSViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Documents/pizza1.png">
+   </FileRef>
+   <FileRef
       location = "self:Gray Final Pizza Project.xcodeproj">
    </FileRef>
 </Workspace>
